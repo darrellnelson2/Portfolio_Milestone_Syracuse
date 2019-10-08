@@ -1,1 +1,29 @@
 
+# Overview
+
+Background:
+Last year, the U.S. was ranked 18th on the happiness scale. Taking a look at the trend, this number seems to be falling each year in the
+U.S. even as we are getting richer as a country. Pursuit of happiness is a fundamental human goal, so we are interested in analyzing the
+world happiness data to determine which key factors promote overall happiness and life satisfaction.
+
+Situation:
+People are constantly looking for ways to be happier and more satisfied with life. We are seeing a “mindfulness” movement being employed 
+in workforces everywhere and are encouraged to take a break or go on a vacation to feel refreshed and rejuvenated to return to work. We 
+believe there are specific customer segments, who would be interested in traveling on a vacation to experience what it’s like to live in
+the happiest country in the world. 
+
+Proposal:
+We are a Marketing Consultant Firm based in NY and have been contracted to support an analysis on world happiness trends for the National
+Travel and Tourism Office (NTTO). Our data analysis will seek to answer the following questions: What significant factors contribute to
+the world happiness ranking? Which top 5 countries are considered to be the happiest in the world from 2015-2017?
+
+## WorldHappiness_Team2_FinalReport.pptx
+Final Report is a PowerPoint presentation which can be opened with PowerPoint from Microsoft Office Suite
+
+## Tableau
+Tableau folder consists of Tableau workbooks that generate the dashboards from the Neural Network feature analysis and geospatial world 
+mapping. 
+
+## R
+R folder consist of an R file that generates the Neural Network model and outputs the importance rankings of each attribute. All raw data
+files needed to generate the dashboards are also provided. 
