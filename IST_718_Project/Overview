@@ -1,1 +1,13 @@
+## Overview
+Our group has decided to investigate over 30 offensive and defensive metrics of all 32 NFL teams over the past 10 years to see if there is
+a winning formula for surviving the regular season, playoffs, and ultimately winning the big game. All of the offensive/defensive metrics 
+will be taken from Pro Football Reference (www.pro-football-reference.com) and exported to a CSV. All final team rankings over the past 
+10 years will be taken from ESPN (www.espn.com) and using team names and year as a primary key will join the two datasets. Models will be 
+developed on the premise of predicting the Super Bowl winner and all of the playoff results for every team based off of their regular 
+season statistics. Our initial hypothesis would be that the team with the best overall statistics would be the Super Bowl favorite. 
 
+# FinalProject_Analysis.zip
+This zip file contains the Jupyter notebook used to analyze the raw data. All raw data imported into the notebook is also included.
+
+# Final_Project_Presentation_Nelson_Darrell.pptx
+Final PowerPoint presentation which can be opened with PowerPoint from Microsoft Office Suite.
