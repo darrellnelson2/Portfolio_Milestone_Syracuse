@@ -1,1 +1,43 @@
+# Overview of Project
 
+The dataset used is a collection of Twitter data compiled by gaining access to the Twitter API through the python program tweepy. 
+The dataset imported was a collection of 3,041 tweets that were released by the teams in the Pacific 12 conference (Pac-12).
+Each tweet was imported and listed as a json structure. The data was manipulated with numpy and pandas dataframes. 
+There was no preprocessing required. The semi-structured data came with the appropriate labels and datatypes to facilitate the analysis.
+
+Twitter accounts of all football teams selected were scraped for the number of tweets and how many retweets and likes each tweet received.
+The schools were then ranked based on the amount of buzz they generated for their teams during the 2018 offseason (02/01/2018 – 07/24/2018).
+The school rankings were then compared to their pre-season and recruiting rankings. The pre-season rankings were taken from the Pac-12 
+media day on 07/25/2018. Media members are asked to vote for where they believe each team will place, and each vote has a number assigned
+to it with more points assigned to teams that will have the most success. Each team’s points are then compiled into a list and ranked from 
+highest to lowest. The recruiting rankings were taken from 247Sports.com for the 2018 Pac-12 year. Each recruit that committed to a team is
+assigned an overall rating, then the 247Sports analytics team uses a Gaussian distribution to rank all recruits on that team. The teams 
+are then ranked in descending order of points.
+
+## Code
+Code file may be opened with Python or any other text editor (e.g. Notepad++)
+
+## Data Questions
+•	Does social media affect how many top football recruits a school gets? 
+    o	Group the counts of the tweets, likes, and retweets each school’s official twitter account generated/received during the 
+    offseason into a pandas dataframe. Create a column for retweets per tweet, how many people decided the content was so good 
+    that they should share it on their story. Create a column for number of likes per tweet, how many people saw and “liked” the post. 
+    The data is then sorted in descending order for each attribute. Team positions/rankings by Twitter are then compared to the recruiting
+    rankings given by 247Sports.com. The overall distance between the predicted rankings and the real rankings for each team are calculated
+    and the absolute value is taken. The feature that produced the lowest distance value is the feature with the fewest deviations from 
+    the true ranking.  
+
+•	Is there a correlation between twitter activity in the offseason and pre-season rankings?
+    o	Preseason polls are released at the end of July or August. The same dataframe and methodology that was used above was used here 
+    with a replacement of the recruiting rankings with the Pac-12 media day pre-season rankings.
+    
+## Output
+Outputs will be sorted dataframes that contain the team names, number of tweets, likes, retweets per tweet, and likes per tweet. Two other
+dataframes: 1) Distance Metric vs Pre-Season Rankings and 2) Distance Metric vs Recruiting Rankings were also outputted. Bar graphs for
+each attribute ranked in descending order are outputted to the console. A print statement stating the feature that best approximates the 
+top 3 finishers and the overall finishers in the conference with the distance metric for each are outputted to the console.
+
+All dataframes were exported to CSV or Excel files that are readable by Excel.
+
+## 652 Final Presentation
+Final slide Deck which can be opened with PowerPoint from Microsoft Office Suite.
