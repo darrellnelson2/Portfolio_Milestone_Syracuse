@@ -1,1 +1,3 @@
-
+## R
+R folder consist of an R file that generates the Neural Network model and outputs the importance rankings of each attribute. All raw data
+files needed to generate the dashboards are also provided. 
